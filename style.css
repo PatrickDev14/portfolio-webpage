@@ -1,1 +1,17 @@
-
+.text-center {
+    text-align: center;
+  }
+  
+  header footer {
+    background-color: rgb(190, 190, 190);
+    font-family: adobe-clean, Arial, Helvetica, sans-serif;
+    color: rgb(248, 247, 247);
+    height: 60px;
+  }
+  
+  main {
+    background-color: rgb(65, 64, 64);
+    font-family: adobe-clean, Arial, Helvetica, sans-serif;
+    color: rgb(248, 247, 247);
+    
+  }
