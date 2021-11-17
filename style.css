@@ -1,29 +1,81 @@
+
+/* Set ALL HTML elements with border-box sizing */
+
+* {
+    box-sizing: border-box;
+    }
+
 .text-center {
     text-align: center;
-  }
-  
-  header footer {
-    background-color: rgb(190, 190, 190);
-    font-family: adobe-clean, Arial, Helvetica, sans-serif;
-    height: 60px;
-  }
-  
-  main {
+    }
+
+/* properties for containersa and <hr> */
+
+header, main, section, article {
     background-color: rgb(65, 64, 64);
     font-family: adobe-clean, Arial, Helvetica, sans-serif;
     color: #dfe0e2;
-    font-size: 20px;    
-  }
-  
-  hr {
-      background-color: #bcc6db;
-      width: 40%;
-      height: 3px;
-      margin-top: 50px;
-      margin-bottom: 40px;
-  }
+    font-size: 20px;
+    }
 
-  h1 h2 ol ul {
+header {
+    width: 100%;
+    margin: auto;
+    padding: 20px;
+    }
+
+section {
+    width: 100%;
+    margin: 0;
+    padding: 50px 192px 50px 192px;
+    }
+
+article {
+    width: 100%;
+    margin: 0;
+    padding: 20px 192px 20px 192px;
+    }
+
+footer {
+    background-color: rgb(172, 192, 216);
+    font-family: adobe-clean, Arial, Helvetica, sans-serif;
+    height: 100px;
+    padding: 20px 100px 20px 100px;
+    }
+  
+hr {
+    background-color: rgb(172, 192, 216);
+    width: 768px;
+    height: 3px;     
+    }
+
+/* properties for fonts in h, ol, ul */
+
+h1 h2 ol ul {
     font-family: adobe-clean, Arial, Helvetica, sans-serif;
     color: #dfe0e2;
-  }
+    }
+
+h1 {
+    font-size: 40px;
+    }
+
+h2 {
+    font-size: 28px;
+    }
+
+h3 {
+    font-size: 16px;
+    color: rgb(65, 64, 64);
+    }
+
+/* properties for a */
+
+a {
+    font-family: adobe-clean, Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    }
+
+a:link    {color: #dfe0e2}
+a:visited {color:rgb(172, 192, 216)}
+a:hover   {color:rgb(172, 192, 216)}
