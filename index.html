@@ -8,6 +8,8 @@
   	<link href="style.css" rel="stylesheet" type="text/css" />
 </head>
 
+<!--Header container, with my identifying info, for better browser searches.
+    In future versions, move a better img to be aligned right side of header container.-->
 <header>
     <h1 class="text-center">Patrick Dev14</h1>
     <h2 class="text-center">Software Developer</h2>
@@ -17,41 +19,47 @@
 <body>
     <main>
         <article>
+            <!--Section for intro, current contact info. Use <ol>.
+                In future versions, work on spacing between text lines.-->
             <section>
         
-                <p>I'm a software developer living in Rockford, Illinois.</p>
+                <p>I am a software developer living in Rockford, Illinois.</p>
                 <ol>
 
                 <!--use <a href="http://www.website.com" target="_blank">Link</a> for opening in new tab-->
                 <li><a href="https://www.linkedin.com/in/patrick-lauher-821b50225/" target="_blank">LinkedIn</a></li>
                 <li><a href="https://github.com/PatrickDev14" target="_blank">Github</a></li>
-                <li>email:  plauher14@gmail.com</li>
+                <li><a href="mailto:plauher14@gmail.com">Email Patrick</a></li>
                 </ol>   
             </section>
 
         <hr>
-
-            <section>  <!--for a couple tidbits, and hiring new developer, and grow your business-->
+            <!--Sections for About Me, brief background info, and hiring new developer, and grow your business. Use <ul>.
+                In future versions, work on spacing between text lines.-->
+            <section>  
                 <h2 class="text-center">About Patrick</h2>
-                <p>My roles in audio and video production involve developing projects through ideation, content capture, editing, and content delivery. After many years of publishing content to the web on a weekly basis, I'm deeply interested in developing your engaging website - where your content and products can best reach <i>your</i> audience!</p>
+                <p>My roles in audio and video production involved developing projects through ideation, content capture, editing, and content delivery. After many years of publishing content to the web on a weekly basis, I'm deeply interested in developing your engaging website - where your content and products can best reach <i>your</i> audience!</p>
                 <ul>
                     <li>Full stack developer gaining a strong background in the MERN stack.</li>
                     <li>Successful in both team and self-directed projects.</li>
                 </ul>
             </section>
+            <section>
+                <p>If you're hiring new developers to grow your business, or want to collaborate for a hackathon, please <a href="mailto:plauher14@gmail.com">contact me.</a>
+                </p>
+                <p>Let's develop something great together!</p>
+            </section>
+
+            <!--Img located here to be visually lower, aided by padding from section container.-->
+            <img src="images/foliopic.jpg" class="round-corners">
         </article>
+    </main>
 
-    <div>
-  
-       <googlemap>
-
-    </div>
-
-  </main>
-
-  <footer>
-    <h3 class="text-center">copyright PatrickDev14</h3>
-  </footer>
+    <!--Footer container with lighter contrast vs dark mode. Use copyright symbol.
+    In future version, add nav section?-->
+    <footer>
+        <h3 class="text-center">&copy PatrickDev14</h3>
+    </footer>
 
 </body>
 
