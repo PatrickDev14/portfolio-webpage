@@ -5,11 +5,21 @@
     box-sizing: border-box;
     }
 
+/* properties for classes */
+
 .text-center {
     text-align: center;
     }
 
-/* properties for containersa and <hr> */
+.round-corners {
+    display: block;
+    border-radius: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+}
+
+/* properties for containers */
 
 header, main, section, article {
     background-color: rgb(65, 64, 64);
@@ -42,14 +52,16 @@ footer {
     height: 100px;
     padding: 20px 100px 20px 100px;
     }
-  
+
+/* properties for hr */
+
 hr {
     background-color: rgb(172, 192, 216);
     width: 768px;
     height: 3px;     
     }
 
-/* properties for fonts in h, ol, ul */
+/* additional properties for fonts in h, ol, ul */
 
 h1 h2 ol ul {
     font-family: adobe-clean, Arial, Helvetica, sans-serif;
@@ -77,5 +89,5 @@ a {
     }
 
 a:link    {color: #dfe0e2}
-a:visited {color:rgb(172, 192, 216)}
-a:hover   {color:rgb(172, 192, 216)}
+a:visited {color:rgb(158, 199, 250)}
+a:hover   {color:rgb(87, 159, 248)}
